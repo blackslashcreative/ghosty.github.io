@@ -1625,7 +1625,6 @@ header .navbar-expand .navbar-brand img {
 }
 
 .menu .items {
-    margin-left: -5px;
     width: calc(100% + 10px);
 }
 
@@ -3639,7 +3638,7 @@ footer .copyright a:not(.btn) {
 
 .modal-header {
     align-items: center;
-    padding: 25px;
+    padding: 0;
     border: none;
     font-weight: 600;
     color: var(--primary-t-color);
@@ -3657,13 +3656,16 @@ footer .copyright a:not(.btn) {
 .modal-header .icon-close {
     font-size: 24px;
     cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 41px;
 }
 
 .modal-body {
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 25px 25px 75px;
+    padding: 25px 40px 75px;
 }
 
 .theme-mode-dark .modal-body h2 {
@@ -3758,6 +3760,10 @@ footer .copyright a:not(.btn) {
 @media(max-width: 1199px) {
 
     /* #region Header */
+
+    .header .ml-auto {
+        display: none;
+    }
 
     body header .navbar-expand .navbar-nav.toggle {
         display: flex;
