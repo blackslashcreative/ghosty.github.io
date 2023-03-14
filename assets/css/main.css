@@ -209,7 +209,8 @@ p:last-child {
     margin-bottom: 0;
 }
 
-.smaller {
+.smaller, 
+.no-slider .slide-content .left .description.smaller {
     font-size: var(--smaller-size);
     font-weight: 100;
 }
