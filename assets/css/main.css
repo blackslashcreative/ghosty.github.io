@@ -1108,6 +1108,15 @@ aside {
     color: var(--secondary-p-color);
 }
 
+.carousel {
+    max-width: 900px;
+    margin: 45px auto 90px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
 .showcase.portfolio .card .image-over:before {
     background-color: transparent;
 }
@@ -1402,6 +1411,10 @@ header {
     z-index: 5;
 }
 
+.navbar>.container {
+    justify-content: right;
+}
+
 .navbar-holder {
     position: relative;
     z-index: -100;
@@ -1465,6 +1478,10 @@ header .navbar-expand.relative {
 
 header .navbar-expand .navbar-nav {
     display: inline-block;
+}
+
+header .navbar-expand .navbar-nav.action {
+    margin-left: 15px;
 }
 
 header .navbar-expand .navbar-nav.toggle {
