@@ -221,6 +221,14 @@ p.smaller {
     letter-spacing: 0.3px;
 }
 
+.w-small {
+    max-width: 200px;
+}
+
+.w-medium {
+    max-width: 400px;
+}
+
 h1,
 .slide-content .title {
     margin-top: 0;
