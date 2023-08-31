@@ -2961,6 +2961,16 @@ header .navbar-expand .navbar-brand img {
     color: var(--secondary-p-color);
 }
 
+p.portfolio-links {
+    white-space: inherit;
+    margin-top: 15px;
+}
+
+.portfolio-links a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
 /* #endregion Feature */
 
 /*----------------------------------------------
