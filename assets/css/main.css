@@ -2969,6 +2969,7 @@ p.portfolio-links {
 .portfolio-links a {
     display: inline-block;
     margin: 0 5px;
+    color: #26ffe6 !important;
 }
 
 /* #endregion Feature */
