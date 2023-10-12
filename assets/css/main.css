@@ -1116,6 +1116,11 @@ aside {
     color: var(--secondary-p-color);
 }
 
+#certification {
+    max-width: 660px;
+    margin-bottom: 0;
+}
+
 .carousel {
     max-width: 900px;
     margin: 45px auto 90px;
