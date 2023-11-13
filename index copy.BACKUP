@@ -142,7 +142,7 @@
             </div>
         </section>
 
-        <!-- About [video]
+        <!-- About [video] -->
         <section id="video" class="section-1 odd highlights image-center featured left">
             <div class="container smaller">
                 <div class="row text-center">
@@ -160,7 +160,6 @@
                 </div>
             </div>
         </section>
-         -->
 
         <!-- Skills -->
         <section id="skills" class="section-2 odd counter skills featured right">
