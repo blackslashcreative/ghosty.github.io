@@ -992,11 +992,27 @@ aside {
 }
 
 .offers.secondary .items .item h4 {
+    font-size: 1.5em;
     margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.offers.secondary .items .item h4 + p {
+    font-size: 0.8em;
 }
 
 .counter.skills .items .item {
     padding: 35px 0 10px;
+}
+
+.counter h4 {
+    margin-top: 0;
+}
+
+.counter h4 span {
+    font-weight: 400;
+    font-size: 0.7em;
+    color: var(--secondary-p-color);
 }
 
 .counter .radial {
@@ -1044,6 +1060,11 @@ aside {
     font-style: normal;
     font-size: 1rem;
     font-weight: 700;
+}
+
+.counter .counter-logo {
+    height: 50px;
+    margin-top: -148px;
 }
 
 .plans .items .item {
@@ -1262,6 +1283,22 @@ aside {
     left: 0;
     background-color: var(--primary-color);
     opacity: 0.75;
+}
+
+.odd:not(.custom) .portfolio-grid .card:not(.no-hover):not(:hover) {
+    background-color: transparent;
+}
+
+.offers.secondary .portfolio-grid.items .item h4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    opacity: .9;
+}
+
+.offers.secondary .portfolio-grid.items .item .card:hover h4 {
+    opacity: 1;
 }
 
 .filter-section .items {
@@ -3769,6 +3806,14 @@ footer .copyright a:not(.btn) {
 .scroll-to-top i:hover,
 .scroll-to-top i:focus {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#certification {
+    margin: 0 auto;
+}
+
+.nyu-logo {
+    margin-bottom: 25px;
 }
 
 /* #endregion Miscellaneous */
